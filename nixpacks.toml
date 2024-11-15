@@ -1,3 +1,5 @@
 install = "npm install"
 build = "npm run build"
 start = "node bot.js"
+[start]
+command = "node bot.js"
