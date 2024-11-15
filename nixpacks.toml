@@ -1,5 +1,9 @@
-install = "npm install"
-build = "npm run build"
-start = "node bot.js"
-[start]
+[phases]
+[phases.install]
+command = "npm install"
+
+[phases.build]
+command = "npm run build"
+
+[phases.start]
 command = "node bot.js"
