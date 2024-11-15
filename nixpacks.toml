@@ -6,4 +6,4 @@ command = "npm install"
 command = "npm run build"
 
 [phases.start]
-command = "node bot.js"
+command = "node Bot.js"
